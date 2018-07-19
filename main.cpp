@@ -17,7 +17,7 @@ int main(void) {
     
     MQTT::Client<MQTTEthernet, Countdown> client = MQTT::Client<MQTTEthernet, Countdown>(ipstack);
     
-    char* hostname = "172.16.73.4";   //Give the IP Address of the MQTT Broker.
+    char* hostname = "iot.eclipse.org";   //Give the IP Address of the MQTT Broker.
     int port = 1883;                  // Port number of the MQTT broker.  
     
  
